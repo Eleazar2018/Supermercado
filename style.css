@@ -6,8 +6,25 @@ body{
 .form, .form2{
     color: brown;
     border: 2px solid blue;
-    padding: 10px;
+    padding: 20px;
     display: inline-block;
+    max-width: 250px;
+    min-width: 200px;
+    margin-top: 10px;
+}
+.compras, .compras2{
+    color: brown;
+    border: 2px solid blue;
+    padding: 10px;
+    max-width: 250px;
+    min-width: 200px;
+}
+.compras2{
+    color: brown;
+    border: 2px solid blue;
+    padding: 30px;
+    max-width: 250px;
+    min-width: 200px;
 }
 .btn {
 	background: #eb94d0;
@@ -17,6 +34,10 @@ body{
     <input type="submit" value="Go to Google" />
 </form>
 */
+.div{
+    width: 100%;
+    
+}
 .divi1{
     border: 2px solid red;
 }
@@ -34,4 +55,8 @@ table, th, th {
     border: 1px solid black;
     border-collapse: collapse;
     padding: 5px;
+}
+.compras2 .lista{
+    text-align: center;
+    color: blue;
 }
