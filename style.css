@@ -1,0 +1,37 @@
+body{
+    border: 0;
+    padding: 0;
+    background-color: rgb(234, 247, 246);
+}
+.form, .form2{
+    color: brown;
+    border: 2px solid blue;
+    padding: 10px;
+    display: inline-block;
+}
+.btn {
+	background: #eb94d0;
+}
+/*
+<form action="http://google.com">
+    <input type="submit" value="Go to Google" />
+</form>
+*/
+.divi1{
+    border: 2px solid red;
+}
+.divi2{
+    border: 2px solid yellow;
+}
+.divi3{
+    border: 2px solid green;
+}
+.divi4{
+    border: 2px solid blue;
+}
+
+table, th, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
